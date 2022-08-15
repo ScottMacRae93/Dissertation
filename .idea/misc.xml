@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_blanching.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_dicing.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_difficulty.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_italy.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_knife.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_lemonchilli.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_logout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_pasta.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.23180999755859374" />
+        <entry key="app/src/main/res/layout/activity_recipe.xml" value="0.35316314697265627" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.23058739261350772" />
+        <entry key="app/src/main/res/layout/activity_shoppinglist.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_technique.xml" value="0.2888973912448748" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeActivity"
+    android:background="@drawable/wallpaper">
+
+    // Title
+    <TextView
+        android:id="@+id/recipe_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Lemon and Chilli\nSpaghetti"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    // Servings Text
+    <TextView
+        android:id="@+id/servings"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instagram"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_people_24"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:text="Servings: 2"
+        android:textColor="@color/white" />
+
+    // Time Text
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="194dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/instagram"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginRight="50dp"
+        android:layout_toRightOf="@id/servings"
+        android:backgroundTint="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:text="30 Mins"
+        android:textColor="@color/white" />
+
+    // Social Media Text
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/socials"
+        android:layout_above="@id/instagram"
+        android:text="Feel like showing off online?"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    // Instagram Button
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/recipe_title"
+        android:id="@+id/instagram"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/instagram"
+        android:layout_marginLeft="10dp"/>
+
+    // Facebook Button
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/recipe_title"
+        android:id="@+id/facebook"
+        android:background="@drawable/facebook"
+        android:layout_toLeftOf="@id/instagram" />
+
+    // Twitter Button
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/recipe_title"
+        android:id="@+id/twitter"
+        android:background="@drawable/twitter"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/instagram"/>
+
+    // Recipe List
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipelist"
+        android:background="@color/white"
+        android:layout_below="@id/servings" />
+
+    // Back Button
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        android:backgroundTint="@android:color/transparent"
+        />
+
+</RelativeLayout>

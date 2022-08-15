@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/wallpaper">
+
+    // Title
+    <TextView
+        android:id="@+id/recipes_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Recipe Book"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    // Search Recipes Bar
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recipes_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:drawablePadding="20dp"
+        android:hint="Search Recipes"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+
+    // Italy Button
+    <ImageButton
+        android:id="@+id/italybtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/search_bar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="190dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/italy" />
+
+    // Mexico Button
+    <ImageButton
+        android:id="@+id/mexicobtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/search_bar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="190dp"
+        android:scaleType="fitXY"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/mexican"/>
+
+    // Spain Button
+    <ImageButton
+        android:id="@+id/spainbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/search_bar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="190dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/spain"/>
+
+    // India Button
+    <ImageButton
+        android:id="@+id/indiabtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/italybtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="325dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/india" />
+
+    // France Button
+    <ImageButton
+        android:id="@+id/francebtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/mexicobtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="325dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/france" />
+
+    // Japan Button
+    <ImageButton
+        android:id="@+id/japanbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/spainbtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="325dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/japan" />
+
+    // USA Button
+    <ImageButton
+        android:id="@+id/usabtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/indiabtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/usa" />
+
+    // Brazil Button
+    <ImageButton
+        android:id="@+id/brazilbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/francebtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/brazil"/>
+
+    // Malaysia Button
+    <ImageButton
+        android:id="@+id/malaysiabtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/japanbtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/malaysia" />
+
+    // USA Text
+    <TextView
+        android:id="@+id/usatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usabtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="3dp"
+        android:text="United States"
+        android:textColor="@color/white" />
+
+    // Italy Text
+    <TextView
+        android:id="@+id/italytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/italybtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="1dp"
+        android:text="Italy"
+        android:textColor="@color/white" />
+
+    // Mexico Text
+    <TextView
+        android:id="@+id/mexicotext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mexicobtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="1dp"
+        android:text="Mexico"
+        android:textColor="@color/white" />
+
+    // Japan Text
+    <TextView
+        android:id="@+id/japantext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/japanbtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="321dp"
+        android:layout_marginTop="3dp"
+        android:text="Japan"
+        android:textColor="@color/white" />
+
+    // Spain Text
+    <TextView
+        android:id="@+id/spaintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spainbtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="321dp"
+        android:layout_marginTop="-2dp"
+        android:text="Spain"
+        android:textColor="@color/white" />
+
+    // India Text
+    <TextView
+        android:id="@+id/indiatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indiabtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="0dp"
+        android:text="India"
+        android:textColor="@color/white" />
+
+    // France Text
+    <TextView
+        android:id="@+id/francetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/francebtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="1dp"
+        android:text="France"
+        android:textColor="@color/white" />
+
+    // Brazil Text
+    <TextView
+        android:id="@+id/braziltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brazilbtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="1dp"
+        android:text="Brazil"
+        android:textColor="@color/white" />
+
+    // Malaysia Text
+    <TextView
+        android:id="@+id/malaysiatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/malaysiabtn"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="3dp"
+        android:text="Malaysia"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dissertation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Scran"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dissertation">
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionAnswersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ItalyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PastaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LemonChilliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BlanchingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DicingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KnifeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoastingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SauteingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TechniqueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DifficultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".QuizActivity"
+    android:padding="45dp">
+
+    // Title
+    <TextView
+        android:id="@+id/total_question"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Quiz"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    // Question
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="When dicing an onion, which object do you cut towards?"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    // Answer 1
+    <Button
+        android:id="@+id/answer_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#30ffffff"
+        android:text="The Fridge"
+        android:textColor="@color/white" />
+
+    // Answer 2
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_b"
+            android:text="The Root"
+            android:layout_below="@id/answer_a"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:backgroundTint="#30ffffff"/>
+
+    // Answer 3
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_c"
+            android:text="Your Hand"
+            android:layout_below="@id/answer_b"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:backgroundTint="#30ffffff"/>
+
+    // Answer 4
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_d"
+            android:text="The Stem"
+            android:layout_below="@id/answer_c"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:backgroundTint="#30ffffff"/>
+
+    // Submit
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer_d"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+    // Back Button
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+</RelativeLayout>
